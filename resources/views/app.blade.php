@@ -40,7 +40,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.6/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.6/angular-route.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.5/ngStorage.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.route.js') }}"></script>
+    <script src="{{ asset('js/app.controller.js') }}"></script>
 </body>
 </html>
