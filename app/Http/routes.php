@@ -23,3 +23,6 @@ Route::group(['before'=>'oauth'], function() {
     Route::resource('post', 'ApiController', ['except' => ['create', 'edit']]);
 });
 
+Route:get('/home', function(){
+    return view('app');
+});
